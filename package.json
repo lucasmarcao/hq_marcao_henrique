@@ -14,9 +14,19 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development netlify-lambda serve src",
+    "build": "NODE_ENV=production netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmarcao/hq_marcao_henrique.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasmarcao/hq_marcao_henrique/issues"
+  },
+  "homepage": "https://github.com/lucasmarcao/hq_marcao_henrique#readme"
 }

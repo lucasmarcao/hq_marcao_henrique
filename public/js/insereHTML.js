@@ -60,32 +60,32 @@ try {
   <div type="button" class="btn centro so-celular" data-toggle="modal" data-target="#staticBackdrop">
       <img src="/img/menu.png" class="separa-nav-seg" alt="MENU" title="MENU">
     </div>
-    <a href="/index.html" id="homePage">
+    <a href="/" id="homePage">
       <img src="/img/home.png" class="separa-nav-pri" alt="HOME" title="HOME">
     </a>
     <div class="centro ninho-nav">
-      <a href="/html/comunidade.html" class="separa-nav-min">
+      <a href="/comunidade/" class="separa-nav-min">
         <span>
           comunidade
         </span>
       </a>
-      <a href="/html/categorias.html" class="separa-nav-min">
+      <a href="/categorias/" class="separa-nav-min">
         <span>
           categorias
         </span>
       </a>
-      <a href="/html/contato.html" class="separa-nav-min">
+      <a href="/contato/" class="separa-nav-min">
         <span>
           contato
         </span>
       </a>
-      <a href="/html/recentes.html" class="separa-nav-min ultimo-nav">
+      <a href="/recentes/" class="separa-nav-min ultimo-nav">
         <span>
           hqs recentes
         </span>
       </a>
     </div>
-    <a href="/html/login/entrar.html">
+    <a href="/entrar/">
       <img src="/img/login.png" class="fim-nav" alt="LOGAR" title="LOGAR">
     </a>
   `;
@@ -96,14 +96,15 @@ try {
     <a href="https://www.instagram.com/lucas.marcao/" target="_blank" rel="noopener noreferrer">
       <img src="/img/insta.png" class="footer-icon1" alt="link-foter" title="instagram">
     </a>
-    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-      <img src="/img/twiter.png" class="footer-icon1b" alt="link-foter" title="whatszap">
+    <a href="https://wa.me/554499787087" target="_blank" rel="noopener noreferrer">
+      <img src="/img/zap.png" class="footer-icon1b" alt="link-foter" title="whatszap">
     </a>
     <div class="footer-txt">
       Site feito por Luquinha da boca e rickzinho rei delas.
     </div>
-    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-      <img src="/img/insta.png" class="footer-icon2a" alt="link-foter" title="facebook">
+    <a href="https://www.facebook.com/lucas.marcao.12" target="_blank" rel="noopener 
+    noreferrer">
+      <img src="/img/face.png" class="footer-icon2a" alt="link-foter" title="facebook">
     </a>
     <a href="https://twitter.com/GoiabadaMarcao" target="_blank" rel="noopener noreferrer">
       <img src="/img/twiter.png" class="footer-icon2" alt="link-foter" title="twiter">
@@ -122,22 +123,22 @@ try {
           </button>
         </div>
         <div class="modal-body corpo-modal-menu">
-          <a href="/html/comunidade.html" class="separa-nav-min">
+          <a href="/comunidade/" class="separa-nav-min">
             <span>
               comunidade
             </span>
           </a>
-          <a href="/html/categorias.html" class="separa-nav-min">
+          <a href="/categorias/" class="separa-nav-min">
             <span>
               categorias
             </span>
           </a>
-          <a href="/html/contato.html" class="separa-nav-min">
+          <a href="/contato/" class="separa-nav-min">
             <span>
               contato
             </span>
           </a>
-          <a href="/html/recentes.html" class="separa-nav-min ultimo-nav">
+          <a href="/recentes/" class="separa-nav-min ultimo-nav">
             <span>
               hqs recentes
             </span>

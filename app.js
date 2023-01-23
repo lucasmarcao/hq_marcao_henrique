@@ -12,6 +12,10 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/public/index.html");
 });
 
+app.get("/comunidade", function (req, res) {
+  res.sendFile(__dirname + "/public/html/comunidade.html");
+});
+
 app.get("/categorias", function (req, res) {
   res.sendFile(__dirname + "/public/html/categorias.html");
 });
@@ -20,12 +24,17 @@ app.get("/contato", function (req, res) {
   res.sendFile(__dirname + "/public/html/contato.html");
 });
 
-app.get("/comunidade", function (req, res) {
-  res.sendFile(__dirname + "/public/html/comunidade.html");
-});
-
 app.get("/recentes", function (req, res) {
   res.sendFile(__dirname + "/public/html/recentes.html");
+});
+
+app.get("/entrar", function (req, res) {
+  res.sendFile(__dirname + "/public/html/login/entrar.html");
+});
+
+
+app.get("/admin", function (req, res) {
+  res.sendFile(__dirname + "/public/html/admin/admin.html");
 });
 
 // Outros.
