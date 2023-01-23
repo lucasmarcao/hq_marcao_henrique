@@ -64,28 +64,28 @@ try {
       <img src="/img/home.png" class="separa-nav-pri" alt="HOME" title="HOME">
     </a>
     <div class="centro ninho-nav">
-      <a href="/comunidade/" class="separa-nav-min">
+      <a href="/html/comunidade.html" class="separa-nav-min">
         <span>
           comunidade
         </span>
       </a>
-      <a href="/categorias/" class="separa-nav-min">
+      <a href="/html/categorias.html" class="separa-nav-min">
         <span>
           categorias
         </span>
       </a>
-      <a href="/contato/" class="separa-nav-min">
+      <a href="/html/contato.html" class="separa-nav-min">
         <span>
           contato
         </span>
       </a>
-      <a href="/recentes/" class="separa-nav-min ultimo-nav">
+      <a href="/html/recentes.html" class="separa-nav-min ultimo-nav">
         <span>
           hqs recentes
         </span>
       </a>
     </div>
-    <a href="/entrar/">
+    <a href="/html/login/entrar.html">
       <img src="/img/login.png" class="fim-nav" alt="LOGAR" title="LOGAR">
     </a>
   `;
@@ -123,22 +123,22 @@ try {
           </button>
         </div>
         <div class="modal-body corpo-modal-menu">
-          <a href="/comunidade/" class="separa-nav-min">
+          <a href="/html/comunidade.html" class="separa-nav-min">
             <span>
               comunidade
             </span>
           </a>
-          <a href="/categorias/" class="separa-nav-min">
+          <a href="/html/categorias.html" class="separa-nav-min">
             <span>
               categorias
             </span>
           </a>
-          <a href="/contato/" class="separa-nav-min">
+          <a href="/html/contato.html" class="separa-nav-min">
             <span>
               contato
             </span>
           </a>
-          <a href="/recentes/" class="separa-nav-min ultimo-nav">
+          <a href="/html/recentes.html" class="separa-nav-min ultimo-nav">
             <span>
               hqs recentes
             </span>
