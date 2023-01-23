@@ -12,8 +12,7 @@ router.get("/", (req, res) => {
 
 router.get("/teste", (req, res) => {
   res.json({
-    subaru: "shiba!",
-    number: 56
+    hello: "dwnvunvwujvnwuvn!"
   });
 });
 

@@ -32,7 +32,6 @@ app.get("/entrar", function (req, res) {
   res.sendFile(__dirname + "/public/html/login/entrar.html");
 });
 
-
 app.get("/admin", function (req, res) {
   res.sendFile(__dirname + "/public/html/admin/admin.html");
 });
