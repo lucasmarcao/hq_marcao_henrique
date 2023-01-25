@@ -15,8 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=development netlify-lambda serve src",
-    "build": "NODE_ENV=production netlify-lambda build src"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
