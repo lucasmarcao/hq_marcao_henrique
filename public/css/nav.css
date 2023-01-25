@@ -12,7 +12,7 @@ nav {
 }
 
 .so-celular {
-  display: none;
+  display: none !important;
 }
 .ninho-nav {
   position: absolute;
@@ -57,7 +57,7 @@ nav {
     height: 50px;
   }
   .so-celular {
-    display: flex;
+    display: flex !important;
   }
   .separa-nav-min {
     font-size: 20px;
