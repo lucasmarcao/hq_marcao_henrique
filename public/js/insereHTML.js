@@ -20,11 +20,6 @@ try {
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/css/extras.css">
     <link rel="stylesheet" href="/css/modal.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/aside.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/form.css">
-    <link rel="stylesheet" href="/css/hq.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,13 +32,6 @@ try {
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/css/extras.css">
     <link rel="stylesheet" href="/css/modal.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/aside.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/form.css">
-    <link rel="stylesheet" href="/css/hq.css">
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/nav.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,28 +50,28 @@ try {
       <img src="/img/home.png" class="separa-nav-pri" alt="HOME" title="HOME">
     </a>
     <div class="centro ninho-nav">
-      <a href="/html/comunidade.html" class="separa-nav-min">
+      <a href="/comunidade/" class="separa-nav-min">
         <span>
           comunidade
         </span>
       </a>
-      <a href="/html/categorias.html" class="separa-nav-min">
+      <a href="/categorias/" class="separa-nav-min">
         <span>
           categorias
         </span>
       </a>
-      <a href="/html/contato.html" class="separa-nav-min">
+      <a href="/contato/" class="separa-nav-min">
         <span>
           contato
         </span>
       </a>
-      <a href="/html/recentes.html" class="separa-nav-min ultimo-nav">
+      <a href="/recentes/" class="separa-nav-min ultimo-nav">
         <span>
           hqs recentes
         </span>
       </a>
     </div>
-    <a href="/html/login/entrar.html">
+    <a href="/entrar/">
       <img src="/img/login.png" class="fim-nav" alt="LOGAR" title="LOGAR">
     </a>
   `;
@@ -121,22 +109,22 @@ try {
           </button>
         </div>
         <div class="modal-body corpo-modal-menu">
-          <a href="/html/comunidade.html" class="separa-nav-min">
+          <a href="/comunidade/" class="separa-nav-min">
             <span>
               comunidade
             </span>
           </a>
-          <a href="/html/categorias.html" class="separa-nav-min">
+          <a href="/categorias/" class="separa-nav-min">
             <span>
               categorias
             </span>
           </a>
-          <a href="/html/contato.html" class="separa-nav-min">
+          <a href="/contato/" class="separa-nav-min">
             <span>
               contato
             </span>
           </a>
-          <a href="/html/recentes.html" class="separa-nav-min ultimo-nav">
+          <a href="/recentes/" class="separa-nav-min ultimo-nav">
             <span>
               hqs recentes
             </span>
