@@ -43,7 +43,7 @@ app.set("view engine", "handlebars");
 // ---> mongoose.
 mongoose.Promise = global.Promise;
 mongoose
-  .connect(db.MongoURI)
+  .connect("mongodb+srv://marcaozitos:enquebravel1@cluster0.zub3f.mongodb.net/test")
   .then(() => {
     console.log(" Conectou com o Mongodb !!!");
   })
