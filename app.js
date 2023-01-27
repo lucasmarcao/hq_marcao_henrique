@@ -45,13 +45,18 @@ app.set("view engine", "handlebars");
 mongoose.Promise = global.Promise;
 mongoose
   .connect(
-    "mongodb+srv://marcaozitos:enquebravel1@cluster0.zub3f.mongodb.net/test"
+    db.MongoURI
   )
   .then(() => {
-    console.log(" Conectou com o Mongodb !!!");
+    console.log(` SO=  ${process.platform}
+    Conectou com o Mongodb !!! 
+    URL = ${db.MongoURI}`);
   })
   .catch((erro) => {
-    console.log("não foi possivel conectar ao mongo, pois: " + erro);
+    console.log(db.MongoURI,
+      "\n Não foi possivel conectar ao mongo, pois: "
+      +
+      erro);
   });
 
 // ---> Public.
