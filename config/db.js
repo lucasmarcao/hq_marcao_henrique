@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV == "production") {
+if (process.platform == 'win32') {
   module.exports = { MongoURI: "mongodb://localhost/hq_marcao_henrique" }
 } else {
   module.exports = { MongoURI: 
