@@ -1,77 +1,77 @@
 footer {
-  transition: 0.8s;
-  position: relative;
-  margin-top: 10px;
-  padding-top: 5px;
-  font-size: 24px;
-  text-align: center;
-  width: 100%;
-  height: 46px;
+  transition: 0.8s !important ;
+  position: relative !important ;
+  margin-top: 10px !important ;
+  padding-top: 5px !important ;
+  font-size: 24px !important ;
+  text-align: center !important ;
+  width: 100% !important ;
+  height: 46px !important ;
   font-family: Courier, monospace !important;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: bold !important ;
+  text-transform: uppercase !important ;
 }
 
 .footer-icon1b,
 .footer-icon2a,
 .footer-icon1,
 .footer-icon2 {
-  transition: 0.8s;
-  border-radius: 3px;
-  padding: 2px;
-  height: 35px;
-  width: 35px;
-  display: inline;
-  position: absolute;
-  top: 5px;
+  transition: 0.8s !important ;
+  border-radius: 3px !important ;
+  padding: 2px !important ;
+  height: 35px !important ;
+  width: 35px !important ;
+  display: inline !important ;
+  position: absolute !important ;
+  top: 5px !important ;
 }
 .footer-icon1 {
-  left: 5%;
+  left: 5% !important ;
 }
 .footer-icon1b {
-  left: 15%;
+  left: 15% !important ;
 }
 .footer-icon2a {
-  right: 15%;
+  right: 15% !important ;
 }
 .footer-icon2 {
-  right: 5%;
+  right: 5% !important ;
 }
 .footer-txt {
-  display: inline;
+  display: inline !important ;
 }
 
 /* responsivo */
 @media (max-width: 991.98px) {
   footer {
-    padding-top: 5px;
-    font-size: 22px;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
-    width: 100%;
-    height: 110px;
+    padding-top: 5px !important ;
+    font-size: 22px !important ;
+    padding-left: 5% !important ;
+    padding-right: 5% !important ;
+    text-align: center !important ;
+    width: 100% !important ;
+    height: 110px !important ;
   }
 
   .footer-icon1b,
   .footer-icon2a,
   .footer-icon1,
   .footer-icon2 {
-    top: 70px;
+    top: 70px !important ;
   }
   .footer-txt {
-    display: inline;
+    display: inline !important ;
   }
   .footer-icon1 {
-    left: 5%;
+    left: 5% !important ;
   }
   .footer-icon1b {
-    left: 30%;
+    left: 30% !important ;
   }
   .footer-icon2a {
-    right: 30%;
+    right: 30% !important ;
   }
   .footer-icon2 {
-    right: 5%;
+    right: 5% !important ;
   }
 }
