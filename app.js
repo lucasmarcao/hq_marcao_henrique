@@ -63,27 +63,27 @@ mongoose
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/public/index.html");
+  res.render("index");
 });
 
 app.get("/comunidade", function (req, res) {
-  res.sendFile(__dirname + "/public/html/comunidade.html");
+  res.render("html/comunidade");
 });
 
 app.get("/categorias", function (req, res) {
-  res.sendFile(__dirname + "/public/html/categorias.html");
+  res.render("html/categorias");
 });
 
 app.get("/contato", function (req, res) {
-  res.sendFile(__dirname + "/public/html/contato.html");
+  res.render("html/contato");
 });
 
 app.get("/recentes", function (req, res) {
-  res.sendFile(__dirname + "/public/html/recentes.html");
+  res.render("html/recentes");
 });
 
 app.get("/entrar", function (req, res) {
-  res.sendFile(__dirname + "/public/html/login/entrar.html");
+  res.render("conta/entrar");
 });
 
 // adm esta on.
