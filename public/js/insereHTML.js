@@ -15,26 +15,14 @@ try {
   // insere links.
   try {
     const diretorioPai = listarCores();
-    insereLinks.innerHTML += `
-    <link rel="shortcut icon" href="/img/based.png" type="image/x-icon">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/extras.css">
-    <link rel="stylesheet" href="/css/modal.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    insereLinks.innerHTML +=
+      `
     <link rel="stylesheet" id="tagCSS" href="${diretorioPai[0].diretorio}">
-  `;
+    `;
   } catch (xxx) {
     const diretorioPai = listarCores();
-    insereLinks.innerHTML += `
-    <link rel="shortcut icon" href="/img/based.png" type="image/x-icon">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/extras.css">
-    <link rel="stylesheet" href="/css/modal.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    insereLinks.innerHTML +=
+      `
     <link rel="stylesheet" id="tagCSS" href="/css/cores.css">
   `;
     console.info("o tema nao carregou pois: \n", xxx);

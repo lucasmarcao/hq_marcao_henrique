@@ -86,6 +86,9 @@ app.get("/entrar", function (req, res) {
   res.render("conta/entrar");
 });
 
+app.get("/exemplohq", function (req, res) {
+  res.render("hqs/exemplo");
+});
 // adm esta on.
 app.use("/admin", admin);
 
