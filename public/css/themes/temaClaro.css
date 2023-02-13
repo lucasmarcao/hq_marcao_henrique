@@ -130,6 +130,67 @@ footer {
   border: 1px solid #ffffff;
 }
 
+/* COMENTARIOS */
+.btncomentario {
+  border: 1px solid #ce2300;
+  background: #ddbeab;
+  color: #800000;
+}
+.btncomentario:hover {
+  transition: 0.8s;
+  border: 1px solid #ce2300;
+  background: #f2e1d6;
+  color: #800000;
+}
+.comecomentario {
+  background: #c74343;
+  border: 1px solid #ce2300;
+}
+.perfilfoto {
+  border: 1px solid #f2e1d6;
+  background-color: #ddbeab;
+}
+.nomecomentarista {
+  background-color: #ddbeab;
+  border: 1px solid #f2e1d6;
+}
+.comentariotxt {
+  background: #f2e1d6;
+  border: 1px solid #ddbeab;
+}
+
+/* scrolls comentarios */
+.comentariotxt::-webkit-scrollbar {
+  border: 1px solid #ddbeab;
+  background-color: #f2e1d6;
+  width: 16px;
+}
+.comentariotxt::-webkit-scrollbar-thumb {
+  background-color: #c74343;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.comentariotxt::-webkit-scrollbar-thumb:hover {
+  background-color: #800000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.scrollcria::-webkit-scrollbar {
+  border: 1px solid #ddbeab;
+  background-color: #f2e1d6;
+  width: 16px;
+}
+.scrollcria::-webkit-scrollbar-thumb {
+  background-color: #c74343;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.scrollcria::-webkit-scrollbar-thumb:hover {
+  background-color: #800000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
 /* responsivo */
 @media (max-width: 991.98px) {
   /* navbar */

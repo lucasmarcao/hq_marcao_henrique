@@ -1,6 +1,6 @@
 nav {
   transition: 0.8s;
-  z-index: 2 !important;
+  z-index: 5 !important;
   display: inline;
   width: 100%;
   height: 46px;
