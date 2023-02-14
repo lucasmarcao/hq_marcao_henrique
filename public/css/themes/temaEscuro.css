@@ -28,7 +28,7 @@ nav {
 }
 .separa-nav-min {
   border-radius: 0 !important;
-  border: 1px ridge;
+  border: 1px ridge #111413;
   background-color: #42d050 !important;
   color: #111413 !important;
 }
