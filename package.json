@@ -1,7 +1,7 @@
 {
   "name": "hq_marcao_henrique",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eu não tanko mais isso.",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.20.1",
@@ -17,7 +17,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "glitch"
+  ],
   "author": "",
   "license": "ISC",
   "repository": {
@@ -26,6 +29,9 @@
   },
   "bugs": {
     "url": "https://github.com/lucasmarcao/hq_marcao_henrique/issues"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "homepage": "https://github.com/lucasmarcao/hq_marcao_henrique#readme"
 }
