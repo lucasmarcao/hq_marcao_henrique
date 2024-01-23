@@ -184,11 +184,50 @@ footer {
   border: 1px solid #1f1116;
 }
 
+/* MAIS recentes :*/
+/*{ categoria recentes */
+.painelnovacategoria {
+  border: 1px solid #f9c440;
+  background: #3a2129;
+}
+
+.nomecategoria,
+.hqsnacategoria,
+.categoriafeitaem {
+  background: #2b181e;
+  border: 1px solid #1f1116;
+}
+
+.classeicon {
+  border: 1px solid #f9c440;
+  background-color: #f9c440;
+}
+
+/* semanais recentes }*/
+.lancadoshq {
+  border-left: 1px solid #2b181e;
+}
+.blocohqsemanal {
+  border: 1px solid #f9c440;
+  background: #3a2129;
+  color: #c5b184;
+}
+
 /* responsivo */
 @media (max-width: 991.98px) {
   /* navbar */
   .separa-nav-seg {
     border: 0.5px solid #1f1116 !important;
     background-color: #c5b184 !important;
+  }
+  /* recentes */
+  /* recentes */
+  .ultimasnoticias {
+    border: 2px solid #ffb700;
+    background-color: #2b181e;
+  }
+  .lancadoshq {
+    border: none;
+    background-color: #1f1116;
   }
 }

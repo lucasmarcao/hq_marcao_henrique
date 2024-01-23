@@ -88,15 +88,13 @@ footer {
 /* scrol */
 
 #scroll-body::-webkit-scrollbar {
-  border: 1px solid #008b2e;
+  border: 1px solid #302f2d;
   background-color: #302f2d;
   width: 18px;
 }
 
 #scroll-body::-webkit-scrollbar-thumb {
-  border: 1px solid #302f2d;
-  background-color: #008b2e;
-  border-radius: 15px;
+  background-color: #42d050;
 }
 
 #scroll-body::-webkit-scrollbar-thumb:hover {
@@ -161,14 +159,12 @@ footer {
 
 /* scrolls comentarios */
 .comentariotxt::-webkit-scrollbar {
-  border: 1px solid #008b2e;
+  border: 1px solid #111413;
   background-color: #302f2d;
   width: 18px;
 }
 .comentariotxt::-webkit-scrollbar-thumb {
-  border: 1px solid #302f2d;
-  background-color: #008b2e;
-  border-radius: 15px;
+  background-color: #42d050;
 }
 .comentariotxt::-webkit-scrollbar-thumb:hover {
   background-color: #055a11;
@@ -177,18 +173,45 @@ footer {
 
 /* cria  .scrollcria    */
 .scrollcria::-webkit-scrollbar {
-  border: 1px solid #008b2e;
+  border: 1px solid #111413;
   background-color: #302f2d;
   width: 18px;
 }
 .scrollcria::-webkit-scrollbar-thumb {
-  border: 1px solid #302f2d;
-  background-color: #008b2e;
-  border-radius: 15px;
+  background-color: #42d050;
 }
 .scrollcria::-webkit-scrollbar-thumb:hover {
   background-color: #055a11;
   border: 1px solid #302f2d;
+}
+
+/* MAIS recentes :*/
+/*{ categoria recentes */
+.painelnovacategoria {
+  border: 1px solid #111413;
+  background: linear-gradient(#008b2e, #42d050);
+}
+
+.nomecategoria,
+.hqsnacategoria,
+.categoriafeitaem {
+  background: #302f2d;
+  border: 1px solid #111413;
+}
+
+.classeicon {
+  border: 1px solid #111413;
+  background-color: #008b2e;
+}
+
+/* semanais recentes }*/
+.lancadoshq {
+  border-left: 1px solid #42d050;
+}
+.blocohqsemanal {
+  border: 1px solid #111413;
+  background: linear-gradient(#008b2e, #42d050);
+  color: #111413;
 }
 
 /* responsivo */
@@ -198,5 +221,14 @@ footer {
     border-radius: 0 !important;
     border: 0.5px solid #302f2d !important;
     background-color: #42d050 !important;
+  }
+  /* recentes */
+  .ultimasnoticias {
+    border: 2px solid #42d050;
+    background-color: #111413;
+  }
+  .lancadoshq {
+    border: none;
+    background-color: #302f2d;
   }
 }
