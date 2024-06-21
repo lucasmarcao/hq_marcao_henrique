@@ -31,8 +31,7 @@
     "url": "https://github.com/lucasmarcao/hq_marcao_henrique/issues"
   },
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": "20.x"
   },
   "homepage": "https://github.com/lucasmarcao/hq_marcao_henrique#readme"
 }
