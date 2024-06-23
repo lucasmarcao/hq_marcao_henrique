@@ -221,6 +221,12 @@ footer {
   background-color: #ddbeab;
 }
 
+/* contato parte */
+.background-img{
+  background-color: #ddbeab !important;
+}
+
+
 /* responsivo */
 @media (max-width: 991.98px) {
   /* navbar */

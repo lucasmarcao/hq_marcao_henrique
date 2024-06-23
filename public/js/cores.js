@@ -65,3 +65,14 @@ try {
 } catch (error) {
   console.log("deu erro pois: \n", error);
 }
+
+try {
+  window.addEventListener('load', function () {
+    let h1 = document.querySelector('h1'); //<title>
+    let textoH1 = h1.textContent;
+    let title = document.querySelector('title'); //<h1>
+    title.innerText = " " + textoH1 + ".";
+  })
+} catch (error) {
+  console.log(" \n A pagina não tem h1.")
+}
